@@ -1,17 +1,16 @@
 # IntDT: A Large-scale Roadside Dual-Lidar Dataset
-
-
 This is the official implementation of the IntDT dataset, a large-scale roadside dual-lidar dataset.
 
 ## Overview
-- [Data Download](#Data-Download)
-- [Benchmark](#Benchmark)
-  - [3D Object Detection](#3D-Object-Detection)
-  - [Semi-supervised 3D object detection](#Semi-supervised-3D-object-detection)
-  - [3D Object Tracking](#3D-Object-Tracking)
-  - [Moving object segmentation](#Moving-object-segmentation)
-  - [Point cloud completion](#Point-cloud-completion)
-- [Acknowledgment](#Acknowledgment)
+- [Data Download](#data-download)
+- [Benchmark](#benchmark)
+  - [3D Object Detection](#3d-object-detection)
+  - [Semi-supervised 3D object detection](#semi-supervised-3d-object-detection)
+  - [3D Object Tracking](#3d-object-tracking)
+  - [Moving object segmentation](#moving-object-segmentation)
+  - [Point cloud completion](#point-cloud-completion)
+- [Acknowledgment](#acknowledgment)
+- [Citation](#citation)
 
 ## Data Download
 Our dataset is freely available to researchers. Please download and sign our [agreement](https://docs.google.com/document/d/14ufBczTjLYnxm5bWkFROsz9FYEugZ2QL/edit?usp=sharing&ouid=110390481963822269546&rtpof=true&sd=true) and send it to the provided email address (wen.xiao@cug.edu.cn). You will receive the download link within one week.
@@ -492,6 +491,22 @@ After downloading the data, please put the data in the following structure:
     <td>0.202</td>
   </tr>
 </table>
+
+## Citation
+
+If you found our work useful, consider citing our work.
+```XML
+@article{xiao2025intdt,
+title={IntDT: A comprehensive roadside dual-lidar dataset and benchmarks for urban intersection digital twins},
+author={Xiao, Wen and Yu, Dianyu and Tang, Miao and Zhang, Shichen and Zhao, Pu and Li, Peiguang and Song, Chengwen and Zhang, Jiaxing and Chen, Nengcheng},
+journal={International Journal of Applied Earth Observation and Geoinformation},
+volume={145},
+pages={104980},
+year={2025},
+publisher={Elsevier}
+doi={doi.org/10.1016/j.jag.2025.104980}
+}
+```
 
 ## Acknowledgment
 - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
